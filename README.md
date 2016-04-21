@@ -10,5 +10,5 @@
 * CMDB通用API：
   [*cmdb-api.py*](https://github.com/honglongwei/python-scripts/blob/master/cmdb-api.py)
 
-* 递归查询：
+* 递归检索：
   [*dsear.py*](https://github.com/honglongwei/python-scripts/blob/master/dsear.py)
