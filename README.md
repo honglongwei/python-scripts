@@ -12,3 +12,6 @@
 
 * 递归检索：
   [*dsear.py*](https://github.com/honglongwei/python-scripts/blob/master/dsear.py)
+
+* Python八大排序算法的实现：
+  [*psf.py*](https://github.com/honglongwei/python-scripts/blob/master/psf.py)
