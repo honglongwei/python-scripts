@@ -5,7 +5,7 @@
   [*opsmod.py*](https://github.com/honglongwei/python-scripts/blob/master/opsmod.py)
 
 * zabbix修改可见名称API：
-  [*zabbix-api.py*](https://github.com/honglongwei/python-scripts/blob/master/zabbix_update_pj-api.py)
+  [*zabbix_update_pj-api*](https://github.com/honglongwei/python-scripts/blob/master/zabbix_update_pj-api.py)
 
 * zabbix通用API：
   [*zabbix-api.py*](https://github.com/honglongwei/python-scripts/blob/master/zabbix-api.py)
