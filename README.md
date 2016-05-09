@@ -18,3 +18,6 @@
 
 * Python八大排序算法的实现：
   [*psf.py*](https://github.com/honglongwei/python-scripts/blob/master/psf.py)
+
+* 远程执行命令、远程添加信任、远程自动分区挂盘：
+  [*ssh_cmd.py*](https://github.com/honglongwei/python-scripts/blob/master/ssh_cmd.py)
