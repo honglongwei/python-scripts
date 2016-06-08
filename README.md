@@ -21,3 +21,6 @@
 
 * 远程执行命令、远程添加信任、远程自动分区挂盘：
   [*ssh_cmd.py*](https://github.com/honglongwei/python-scripts/blob/master/ssh_cmd.py)
+
+* 基于saltstack的nested输出的运维脚本：
+  [*gameops.py*](https://github.com/honglongwei/python-scripts/blob/master/gameops.py)
