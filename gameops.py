@@ -124,7 +124,7 @@ if __name__== "__main__":
     # check arguments
     opts = sys.argv
     if len(opts) < 2:
-        print 'start|stop|status|update'
+        print 'start|stop|status|backup|update'
         sys.exit(0)
     elif len(opts) == 2:
         if opts[1]=='start':
