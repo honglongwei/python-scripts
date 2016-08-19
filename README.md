@@ -24,3 +24,6 @@
 
 * 基于saltstack的nested输出的运维脚本：
   [*gameops.py*](https://github.com/honglongwei/python-scripts/blob/master/gameops.py)
+
+* 游戏日志监控脚本：
+  [*monitor_log.py*](https://github.com/honglongwei/python-scripts/blob/master/monitor_log.py)
