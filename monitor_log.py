@@ -32,17 +32,14 @@ def GetLog(num):
 
 blog = GetLog(2)
 alog = GetLog(1)
-if len(blog) > len(alog):
-    print '-' + ' ' + ','.join(list(set(blog).difference(set(alog)))) #交集:list(set(a).intersection(set(b))) 并集:list(set(a).union(set(b))) 差集:list(set(b).difference(set(a))) # b中有而a中没有的
-elif len(blog) < len(alog):
-    print '+' + ' ' + ','.join(list(set(alog).difference(set(blog))))
-else:
-    print 0
-
 '''
-jdata = set(blog).intersection(set(alog)) //交集
-mor = list(set(alog).difference(jdata))   //新增
-les = list(set(blog).difference(jdata))   //减少
+ 交集:list(set(a).intersection(set(b))) 
+ 并集:list(set(a).union(set(b))) 
+ 差集:list(set(b).difference(set(a))) // b中有而a中没有的
+'''
+jdata = set(blog).intersection(set(alog)) #交集
+mor = list(set(alog).difference(jdata))   #新增
+les = list(set(blog).difference(jdata))   #减少
 if len(mor) == 0 and len(les) == 0:
     print 0
 elif len(mor) == 0 and len(les) != 0:
@@ -51,4 +48,3 @@ elif len(mor) != 0 and len(les) == 0:
     print '+: {0}'.format(','.join(mor))
 else:
     print '+: {jia}\n-: {shao}'.format(jia=','.join(mor), shao=','.join(les))
-'''
