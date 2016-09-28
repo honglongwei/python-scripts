@@ -39,4 +39,16 @@ elif len(blog) < len(alog):
 else:
     print 0
 
-
+'''
+jdata = set(blog).intersection(set(alog)) //交集
+mor = list(set(alog).difference(jdata))   //新增
+les = list(set(blog).difference(jdata))   //减少
+if len(mor) == 0 and len(les) == 0:
+    print 0
+elif len(mor) == 0 and len(les) != 0:
+    print '-: {0}'.format(','.join(les))
+elif len(mor) != 0 and len(les) == 0:
+    print '+: {0}'.format(','.join(mor))
+else:
+    print '+: {jia}\n-: {shao}'.format(jia=','.join(mor), shao=','.join(les))
+'''
