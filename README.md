@@ -28,5 +28,5 @@
 * 游戏日志监控脚本：
   [*monitor_log.py*](https://github.com/honglongwei/python-scripts/blob/master/monitor_log.py)
   
-* 扫描服务器生产Excel报表：
+* 扫描服务器生成Excel报表：
   [*ssh_excel.py*](https://github.com/honglongwei/python-scripts/blob/master/ssh_excel.py)
