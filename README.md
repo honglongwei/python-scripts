@@ -30,3 +30,6 @@
   
 * 扫描服务器生成Excel报表：
   [*ssh_excel.py*](https://github.com/honglongwei/python-scripts/blob/master/ssh_excel.py)
+  
+* Web扫描：
+  [*scan_web_banner.py*](https://github.com/honglongwei/python-scripts/blob/master/scan_web_banner.py)
