@@ -3,6 +3,9 @@
 
 * 日常运维：
   [*opsmod.py*](https://github.com/honglongwei/python-scripts/blob/master/opsmod.py)
+  
+* python操作mysql的原生sql：
+  [*dodb.py*](https://github.com/honglongwei/python-scripts/blob/master/dodb.py)
 
 * zabbix修改可见名称API：
   [*zabbix_update_pj-api*](https://github.com/honglongwei/python-scripts/blob/master/zabbix_update_pj-api.py)
