@@ -8,7 +8,7 @@
   [*dodb.py*](https://github.com/honglongwei/python-scripts/blob/master/dodb.py)
 
 * zabbix修改可见名称API：
-  [*zabbix_update_pj-api*](https://github.com/honglongwei/python-scripts/blob/master/zabbix_update_pj-api.py)
+  [*zabbix_update_pj-api.py*](https://github.com/honglongwei/python-scripts/blob/master/zabbix_update_pj-api.py)
 
 * zabbix通用API：
   [*zabbix-api.py*](https://github.com/honglongwei/python-scripts/blob/master/zabbix-api.py)
