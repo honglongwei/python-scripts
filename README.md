@@ -37,6 +37,9 @@
 * Web扫描：
   [*scan_web_banner.py*](https://github.com/honglongwei/python-scripts/blob/master/scan_web_banner.py)
   
- * Unix时间戳转换：
+* Unix时间戳转换：
   [*unix_time_format.py*](https://github.com/honglongwei/python-scripts/blob/master/unix_time_format.py)
+
+* LDAP认证：
+  [*ldap.py*](https://github.com/honglongwei/python-scripts/blob/master/ldap.py)
 
