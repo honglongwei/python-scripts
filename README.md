@@ -43,3 +43,5 @@
 * LDAP认证：
   [*ldap.py*](https://github.com/honglongwei/python-scripts/blob/master/ldap.py)
 
+* 获取本机公网出口IP：
+  [*get_local_wip.py*](https://github.com/honglongwei/python-scripts/blob/master/get_local_wip.py)
