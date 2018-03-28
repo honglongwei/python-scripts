@@ -8,7 +8,7 @@ import ldap
 def login_ldap(username, password):  
     try:  
        # print("开始执行")  
-        Server = "ldap://127.0.0.1:389"  
+        Server = "ldap://8.8.8.8:389"  
         baseDN = "dc=baidu,dc=com"  
         searchScope = ldap.SCOPE_SUBTREE  
         # 设置过滤属性，这里只显示cn=test的信息  
@@ -64,6 +64,9 @@ def login_ldap(username, password):
             ret['mail'] = Attrs['mail'][0]  
             ret['username'] = Attrs['name'][0]  
             ret['nickname'] = Attrs['displayName'][0]  
+            ret['sAMAccountName'] = Attrs['sAMAccountName'][0]  
+            ret['memberOf'] = Attrs['memberOf'][0]  
+            ret['distinguishedName'] = Attrs['distinguishedName'][0]  
             ret['code'] = 200010
            # print Attrs['memberOf'][0]  
             #print Attrs['sAMAccountName'][0]  
@@ -84,4 +87,4 @@ if __name__ == "__main__":
     username = "" # ldap中用户名  
     password = "" # ldap中密码  
       
-    print login_ldap(username, password)      
+    print login_ldap(username, password)
